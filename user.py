@@ -5,8 +5,7 @@ import os
 import openai
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
+openai.api_key = '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'
 start_sequence = "user"
 restart_sequence = "\n\n"
 session_prompt ="Hi! You are talking to Munshi! Mention your query!"

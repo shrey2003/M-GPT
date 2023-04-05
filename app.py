@@ -3,7 +3,7 @@ import gradio as gr
 from user import session_prompt,ask, append_interaction_to_chat_log
 # app = Flask(__name__)
 # # if for some reason your conversation with Jabe gets weird, change the secret key
-# app.config['SECRET_KEY'] = 'asdffjfnfjnfvf'
+
 # @app.route('/gradio', methods=['POST'])
 # def user():
 #  incoming_msg = request.values['Body']
@@ -17,7 +17,7 @@ from user import session_prompt,ask, append_interaction_to_chat_log
 # if __name__ == '__main__':
 #  app.run(debug=True)
 app = Flask(__name__)
-
+app.config['SECRET_KEY'] = 'asdffjfnfjnfvf'
 def chat_bot(question):
     global chat_log
     answer = ask(question, chat_log)
