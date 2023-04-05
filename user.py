@@ -21,5 +21,6 @@ def ask(question, chat_log=None):
      frequency_penalty=0.57,
      presence_penalty=0.66,
   stop=["\n"],
-)   story = response['choices'][0]['text']
-    return str(story)
+)   
+     story = response['choices'][0]['text']
+     return str(story)
