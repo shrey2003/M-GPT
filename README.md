@@ -11,7 +11,7 @@ Munshi is an AI-powered conversational assistant for Munshig, a digital platform
 
 ## Installation
 
-To run MunshigPT on your local machine, you need to have Python 3.x and the following dependencies installed:
+To run Munshi on your local machine, you need to have Python 3.x and the following dependencies installed:
 
 - OpenAI API
 - Streamlit
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run MunshigPT, run the following command:
+To run Munshi, run the following command:
 streamlit run app.py
 
 This will start the Streamlit server and open the Munshi interface in your default web browser. You can then interact with the chatbot by typing in your queries and receiving responses in natural language.
