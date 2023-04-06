@@ -39,4 +39,4 @@ This will start the Streamlit server and open the Munshi interface in your defau
 
 ## License
 
-MunshigPT is licensed under the MIT License. Feel free to use and modify this code as per your requirements.
+Munshi is licensed under the MIT License. Feel free to use and modify this code as per your requirements.
