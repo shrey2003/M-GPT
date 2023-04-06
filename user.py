@@ -3,7 +3,6 @@ from random import choice
 from flask import Flask, request
 import os
 import openai
-import gradio as gr
 
 load_dotenv()
 openai.api_key = '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'
