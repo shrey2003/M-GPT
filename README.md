@@ -16,8 +16,8 @@ To run Munshi on your local machine, you need to have Python 3.x and the followi
 - OpenAI API
 - Streamlit
 - Pillow (To be updated)
-- SpeechRecognition(To be updated)
-- PyAudio(To be updated)
+- SpeechRecognition
+- PyAudio
 
 You can install these dependencies by running the following command:
 pip install -r requirements.txt
@@ -34,7 +34,7 @@ This will start the Streamlit server and open the Munshi interface in your defau
 - Munshi was developed by Shreya Mishra.
 - This project uses the [OpenAI API](https://openai.com/api/) for natural language processing and response generation.
 - The user interface is built using [Streamlit](https://streamlit.io/).
-- Speech recognition is powered by [SpeechRecognition](https://pypi.org/project/SpeechRecognition/).(to be updated)
+- Speech recognition is powered by [SpeechRecognition](https://pypi.org/project/SpeechRecognition/).
 - Image recognition is powered by [Pillow](https://pillow.readthedocs.io/en/stable/).(to be updated)
 
 ## License
